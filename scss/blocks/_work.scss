@@ -186,7 +186,7 @@
 }
 @media only screen and (max-width:850px) { 
     .work {
-        padding-top: 120px;
+        padding-top: 50px;
         &__container {
             background-image: url(./../..//img/work__mobile__bgi.png);
             padding-top: 1000px;
@@ -275,6 +275,7 @@
 }
 @media only screen and (max-width:570px) { 
     .work {
+        padding-top: 20px;
         &__container {
             padding-top: 600px;
         }
@@ -299,6 +300,7 @@
 }
 @media only screen and (max-width:426px) { 
     .work {
+        padding-top: 0 ;
         &__container {
             padding-top: 430px;
         }

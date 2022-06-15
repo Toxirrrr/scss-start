@@ -682,6 +682,35 @@ ul, ol, li {
   width: 540px;
 }
 
+@media only screen and (max-width: 1310px) {
+  .quality__background {
+    max-width: 445px;
+    height: 475px;
+    background-image: url(./../img/quality_background_.png);
+    background-repeat: no-repeat;
+    top: calc(-200px);
+    left: calc(545px);
+    background-size: 95%;
+  }
+  .quality__top {
+    position: relative;
+  }
+  .quality__header {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+  }
+  .quality__text {
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(254, 252, 247, 0.8);
+    width: 540px;
+  }
+}
+
 .countries {
   padding-top: 150px;
 }

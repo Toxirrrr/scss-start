@@ -1,0 +1,46 @@
+.quality {
+    padding-top: 50px;
+    position: relative;
+    padding-top: 200px;
+    
+    &__container {
+        background-color: #272E37;
+        padding-top: 88px;
+        padding-left: 85px;
+        padding-bottom: 176px;
+        border-radius: 10px;
+    }
+    
+    &__background {
+        width: 445px;
+        height: 475px;
+        position: absolute;
+        background-image: url(./../img/quality_background_.png);
+        background-repeat: no-repeat;
+        top: calc(-200px);
+        left: calc(655px);
+    }
+    
+    &__top {
+        position: relative;
+    }
+    
+    &__header {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+    }
+    
+    &__text {
+        font-size: 16px;
+        line-height: 26px;
+        color: rgba(254, 252, 247, 0.8);
+        width: 540px;
+    }
+    
+    &__img {
+    }
+}

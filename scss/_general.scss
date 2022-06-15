@@ -5,11 +5,19 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 20px auto;
+  background-color: #FEFCF7;
+  font-family: 'barlow', 'ariel', 'sans-serif';
+  cursor: pointer;
+  margin-left: 30px;
 }
 
 img {
   vertical-align: middle;
+}
+
+ul, ol, li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0; 
 }

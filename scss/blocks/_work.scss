@@ -1,0 +1,347 @@
+.work {
+    
+    &__container {
+        padding-top: 105px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        background-image: url(./../img/work_background.jpg);
+        background-repeat: no-repeat;
+        background-position: calc(20%) 50px;
+        padding-bottom: 150px;
+    }
+    
+    
+    &__header {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+    }
+    
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: rgba(51, 61, 75, 0.8);
+        mix-blend-mode: normal;
+        width: 540px;
+    }
+}
+
+@media only screen and (max-width:1350px) { 
+    .work {
+        &__text {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: rgba(51, 61, 75, 0.8);
+            mix-blend-mode: normal;
+            max-width: 540px;
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width:1200px) { 
+    .work {
+        
+        &__container {
+        }
+        
+        
+        &__header {
+        }
+        
+        &__text {
+            width: 500px;
+            margin: 0;
+        }
+    }
+}
+@media only screen and (max-width:1170px) { 
+    .work {
+        
+        &__container {
+        }
+        
+        
+        &__header {
+        }
+        
+        &__text {
+            width: 450px;
+        }
+    }
+}
+@media only screen and (max-width:1090px) { 
+    .work {
+        
+        &__container {
+        }
+        
+        
+        &__header {
+        }
+        
+        &__text {
+            width: 400px;
+        }
+    }
+}
+@media only screen and (max-width:1024px) { 
+    .container {
+        padding-left: 0px;
+    }
+    .work {
+        
+        &__container {
+        }
+        
+        
+        &__header {
+        }
+        
+        &__text {
+            width: 350px;
+        }
+    }
+}
+@media only screen and (max-width:980px) { 
+    .work {
+        
+        &__container {
+            padding-top: 105px;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            background-image: url(./../img/work_background.jpg);
+            background-repeat: no-repeat;
+            background-position: calc(10%) 50px;
+            padding-bottom: 150px;
+        }
+        
+        &__header {
+        }
+        
+        &__text {
+            width: 300px;
+        }
+    }
+}
+@media only screen and (max-width:920px) { 
+    .work {
+        
+        &__container {
+            padding-top: 105px;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            background-image: url(./../img/work_background.jpg);
+            background-repeat: no-repeat;
+            background-position: calc(0%) 50px;
+            padding-bottom: 150px;
+        }
+        
+        &__header {
+        }
+        
+        &__text {
+            width: 300px;
+        }
+    }
+}
+@media only screen and (max-width:885px) { 
+    .work {
+        padding-top: 120px;
+        &__container {
+            background-image: url(./../..//img/work__mobile__bgi.png);
+            padding-top: 1000px;
+            background-position: calc( 50% ) 0;
+            align-items: center;
+            text-align: center;
+            background-size: 95%;
+            padding-top: 950px;
+        }
+        &__header {
+            font-size: 32px;
+            line-height: 48px;
+            color: #333D4B;
+        }
+        
+        &__text {
+            max-width: 800px;
+            width: 100%;
+            font-size: 15px;
+            line-height: 25px;
+            color: #333D4B;
+        }
+    }
+}
+@media only screen and (max-width:850px) { 
+    .work {
+        padding-top: 120px;
+        &__container {
+            background-image: url(./../..//img/work__mobile__bgi.png);
+            padding-top: 1000px;
+            background-position: calc( 50% ) 0;
+            align-items: center;
+            text-align: center;
+            background-size: 95%;
+            padding-top: 900px;
+        }
+        &__header {
+            font-size: 32px;
+            line-height: 48px;
+            color: #333D4B;
+        }
+        
+        &__text {
+            max-width: 800px;
+            width: 100%;
+            font-size: 15px;
+            line-height: 25px;
+            color: #333D4B;
+        }
+    }
+}
+@media only screen and (max-width:800px) { 
+    .work {
+        &__container {
+            padding-top: 850px;
+        }
+        &__header {
+        }
+        
+        &__text {
+        }
+    }
+}
+@media only screen and (max-width:790px) { 
+    .work {
+        &__container {
+            background-size: 95%;
+            padding-top: 830px;
+        }
+        &__header {
+        }
+        
+        &__text {
+        }
+    }
+}
+@media only screen and (max-width:750px) { 
+    .work {
+        &__container {
+            background-size: 95%;
+            padding-top: 800px;
+        }
+        &__header {
+        }
+        
+        &__text {
+        }
+    }
+}
+@media only screen and (max-width:720px) { 
+    .work {
+        &__container {
+            padding-top: 750px;
+        }
+        &__header {
+        }
+        
+        &__text {
+        }
+    }
+}
+@media only screen and (max-width:650px) { 
+    .work {
+        &__container {
+            padding-top: 670px;
+        }
+        &__header {
+        }
+        
+        &__text {
+        }
+    }
+}
+@media only screen and (max-width:570px) { 
+    .work {
+        &__container {
+            padding-top: 600px;
+        }
+        &__header {
+        }
+        
+        &__text {
+        }
+    }
+}
+@media only screen and (max-width:500px) { 
+    .work {
+        &__container {
+            padding-top: 500px;
+        }
+        &__header {
+        }
+        
+        &__text {
+        }
+    }
+}
+@media only screen and (max-width:426px) { 
+    .work {
+        &__container {
+            padding-top: 430px;
+        }
+        &__header {
+        }
+        
+        &__text {
+        }
+    }
+}
+@media only screen and (max-width:380px) { 
+    .work {
+        &__container {
+            padding-top: 370px;
+        }
+        &__header {
+        }
+        
+        &__text {
+        }
+    }
+}
+@media only screen and (max-width:340px) { 
+    .work {
+        &__container {
+            padding-top: 320px;
+        }
+        &__header {
+        }
+        
+        &__text {
+        }
+    }
+}
+@media only screen and (max-width:300px) { 
+    .work {
+        &__container {
+            padding-top: 300px;
+        }
+        &__header {
+        }
+        
+        &__text {
+        }
+    }
+}
